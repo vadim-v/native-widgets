@@ -7,7 +7,7 @@
     },
     "test": {
       "dependsOn": ["^test"],
-      "outputs": ["coverage/**"]
+      "cache": false
     },
     "lint": {
       "dependsOn": ["^lint"],
